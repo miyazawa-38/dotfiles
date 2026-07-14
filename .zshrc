@@ -69,13 +69,13 @@ alias fh='fd . ~ | fzf'
 alias fhH='fd -H . ~ | fzf'
 
 # git
-alias gstatus='git status'
-alias gdiff='git diff'
-alias gadd='git add'
-alias gcommit='git commit -m'
+alias gs='git status'
+alias gd='git diff'
+alias ga='git add'
+alias gc='git commit -m'
 alias gpush='git push'
 alias gpull='git pull'
-alias gbranch='git branch'
+alias gb='git branch'
 alias gcheckout='git checkout'
 alias grestore='git restore'
 
