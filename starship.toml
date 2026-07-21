@@ -1,9 +1,9 @@
 format = """
 $directory\
-[ ](fg:#88C0D0 bg:#1d2230)\
+[ ](fg:#98C379 bg:#3B5249)\
 $git_branch\
 $git_status\
-[ ](fg:#1d2230)\
+[ ](fg:#3B5249)\
 \n$character
 """
 
@@ -30,7 +30,7 @@ disabled = false
 symbol = ' '
 
 [directory]
-style = "fg:#2E3440 bg:#88C0D0 bold"
+style = "fg:#2E3440 bg:#98C379 bold"
 # format = "[ $path ]($style)"
 truncation_length = 10
 truncate_to_repo = false
@@ -56,12 +56,12 @@ disabled = true
 
 [git_branch]
 symbol = ""
-style = "bg:#1d2230"
-format = '[[ $symbol $branch ](fg:#769ff0 bg:#1d2230)]($style)'
+style = "bg:#3B5249"
+format = '[[ $symbol $branch ](fg:#C6E6B3 bg:#3B5249)]($style)'
 
 [git_status]
-style = "bg:#1d2230"
-format = '[[($all_status$ahead_behind )](fg:#769ff0 bg:#1d2230)]($style)'
+style = "bg:#3B5249"
+format = '[[($all_status$ahead_behind )](fg:#C6E6B3 bg:#3B5249)]($style)'
 
 [cmd_duration]
 min_time = 1
