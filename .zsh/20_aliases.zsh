@@ -7,10 +7,10 @@ alias sourcerc='source ~/.zshrc'
 alias lg='lazygit'
 
 # cd
-alias cdf='cd "$(fd -t d | fzf)"'
-alias cdfH='cd "$(fd -H -t d | fzf)"'
-alias cdfh='cd "$(fd . ~ -t d | fzf)"'
-alias cdfhH='cd "$(fd -H . ~ -t d | fzf)"'
+alias cdf='cd "$(fd -H -t d | fzf)"'
+# alias cdfH='cd "$(fd -H -t d | fzf)"'
+alias cdfh='cd "$(fd -H . ~ -t d | fzf)"'
+# alias cdfhH='cd "$(fd -H . ~ -t d | fzf)"'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -33,14 +33,14 @@ alias o='open .'
 
 # nvim
 alias n='nvim'
-alias nf='nvim $(fd -t f | fzf)'
-alias nfH='nvim $(fd -H -t f | fzf)'
+alias nf='nvim $(fd -H -t f | fzf)'
+# alias nfH='nvim $(fd -H -t f | fzf)'
 
 # fd 
-alias f='fd | fzf'
-alias fH='fd -H | fzf'
-alias fh='fd . ~ | fzf'
-alias fhH='fd -H . ~ | fzf'
+alias f='fd -H | fzf'
+# alias fH='fd -H | fzf'
+alias fh='fd -H . ~ | fzf'
+# alias fhH='fd -H . ~ | fzf'
 
 # git
 alias g='git'
