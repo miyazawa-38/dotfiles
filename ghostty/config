@@ -9,7 +9,7 @@ theme = Kanagawa Wave
 # theme = Kanagawa Dragon
 
 # --- window ---
-# background-opacity = 0.9
+# background-opacity = 0.8
 # background-blur-radius = 20
 macos-titlebar-style = hidden
 macos-window-shadow = true
