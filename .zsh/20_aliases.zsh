@@ -31,6 +31,10 @@ alias rmf='rm $(fd | fzf)'
 # open .
 alias o='open .'
 
+# vim
+alias v='vim'
+alias vf='vim $(fd -H -t f | fzf)'
+
 # nvim
 alias n='nvim'
 alias nf='nvim $(fd -H -t f | fzf)'
