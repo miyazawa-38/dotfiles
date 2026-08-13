@@ -1,0 +1,56 @@
+" Basic
+set number
+set cursorline
+set showcmd
+set ruler
+
+" Search
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+" Indent
+set expandtab
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set autoindent
+set smartindent
+
+" Display
+syntax enable
+filetype plugin indent on
+
+" Editing
+set backspace=indent,eol,start
+set hidden
+set mouse=a
+
+" Convenience
+set scrolloff=5
+set wildmenu
+
+" Files
+set encoding=utf-8
+set nobackup
+set nowritebackup
+set noswapfile
+
+" Clipboard
+" This terminal Vim cannot access the + register reliably.  Keep Vim's
+" unnamed register for p, and copy yanked text to the macOS clipboard.
+set clipboard=
+augroup macos_clipboard
+    autocmd!
+    autocmd TextYankPost * if v:event.operator ==# 'y' | call system('pbcopy', getreg('"')) | endif
+augroup END
+
+" Key-mapping
+inoremap jj <Esc>
+vnoremap jj <Esc>
+
+" Normal mode: block cursor
+" Insert mode: vertical bar cursor
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
