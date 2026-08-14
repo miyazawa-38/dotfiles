@@ -1,0 +1,2 @@
+-- -- Markdownの時だけ「装飾（Conceal）」を有効にする
+-- vim.opt_local.conceallevel = 2

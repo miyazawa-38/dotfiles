@@ -1,0 +1,38 @@
+-- ~/.config/nvim/lua/plugins/ruby.lua
+return {}
+
+-- -- 以下はコメントアウト済み
+-- return {
+--   {
+--     "L3MON4D3/LuaSnip",
+--     -- config を使うことで、プラグインのロード後に確実に実行させます
+--     config = function(plugin, opts)
+--       -- まず、LazyVim のデフォルト設定でセットアップ
+--       require("luasnip").setup(opts)
+--
+--       local ls = require("luasnip")
+--       local s = ls.snippet
+--       local t = ls.text_node
+--       local i = ls.insert_node
+--
+--       -- eruby (ERB) 用の爆速スニペットを直接定義
+--       ls.add_snippets("eruby", {
+--         -- er と打って確定で <%  %>
+--         s("er", {
+--           t("<% "),
+--           i(1),
+--           t(" %>"),
+--         }),
+--         -- pe と打って確定で <%=  %>
+--         s("pe", {
+--           t("<%= "),
+--           i(1),
+--           t(" %>"),
+--         }),
+--       })
+--
+--       -- eruby ファイルで既存の ruby や html のスニペットも使えるようにする
+--       ls.filetype_extend("eruby", { "ruby", "html" })
+--     end,
+--   },
+-- }
