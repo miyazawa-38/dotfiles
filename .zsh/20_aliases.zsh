@@ -18,6 +18,9 @@ alias ....='cd ../../..'
 # ls
 alias ls='ls -GF'
 
+# mkdir
+alias md='mkdir'
+
 # grep
 alias grep='grep --color=auto'
 
@@ -68,7 +71,7 @@ alias gsw='git switch'
 alias gss='git stash push'
 
 
-# Anipos
+# Makefile
 alias m='make'
 
 # claude
