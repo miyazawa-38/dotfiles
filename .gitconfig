@@ -1,0 +1,25 @@
+[user]
+	name = miyazawa-38
+	email = 223658116+miyazawa-38@users.noreply.github.com
+[core]
+	pager = less -FXR -x8
+	whitespace = trailing-space,space-before-tab
+	editor = vim
+	quotepath = false
+[color]
+	ui = auto
+[push]
+	default = simple
+	autoSetupRemote = true
+[apply]
+	whitespace = error-all
+[grep]
+	lineNumber = true
+[status]
+	showUntrackedFiles = all
+[fetch]
+	prune = true
+[init]
+  defaultBranch = main
+[pull]
+  rebase = false
