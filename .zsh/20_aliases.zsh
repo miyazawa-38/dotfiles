@@ -75,6 +75,7 @@ alias ghic='gh issue create --editor'
 alias ghie='gh issue edit'
 alias ghil='gh issue list'
 alias ghiv='gh issue view'
+alias ghpc='gh pr create --editor'
 alias ghpl='gh pr list'
 
 # Makefile
