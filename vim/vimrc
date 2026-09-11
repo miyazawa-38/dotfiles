@@ -38,13 +38,9 @@ set nowritebackup
 set noswapfile
 
 " Clipboard
-" This terminal Vim cannot access the + register reliably.  Keep Vim's
-" unnamed register for p, and copy yanked text to the macOS clipboard.
-set clipboard=
-augroup macos_clipboard
-    autocmd!
-    autocmd TextYankPost * if v:event.operator ==# 'y' | call system('pbcopy', getreg('"')) | endif
-augroup END
+" Vim is built with +clipboard, so y/d/p share the macOS pasteboard directly.
+" On macOS the * and + registers are the same pasteboard.
+set clipboard=unnamed
 
 " Key-mapping
 inoremap jj <Esc>
