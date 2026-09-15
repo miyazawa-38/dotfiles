@@ -68,7 +68,7 @@ alias gr='git restore'
 alias gs='git status'
 alias gsp='git stash pop'
 alias gsw='git switch'
-alias gss='git stash push'
+alias gss='git stash push -u'
 
 # github
 alias ghic='gh issue create --editor'
