@@ -1,7 +1,7 @@
 
 # ~/.zshrc
-alias editrc='nvim ~/.zshrc'
-alias sourcerc='source ~/.zshrc'
+alias erc='nvim ~/.zshrc'
+alias src='source ~/.zshrc'
 
 # lazygit
 alias lg='lazygit'
