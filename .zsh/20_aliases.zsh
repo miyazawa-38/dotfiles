@@ -47,6 +47,7 @@ alias f='fd -H | fzf'
 # alias fH='fd -H | fzf'
 alias fh='fd -H . ~ | fzf'
 # alias fhH='fd -H . ~ | fzf'
+alias fg='fd | grep'
 
 # git
 alias g='git'
