@@ -1,4 +1,3 @@
-
 # ~/.zshrc
 alias erc='nvim ~/.zshrc'
 alias src='source ~/.zshrc'
