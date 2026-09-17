@@ -15,6 +15,9 @@
 --   return table.concat(lines, "\n")
 -- end
 
+-- 使用したサイト
+-- patorjk.com/software/taag
+
 return {
   {
     "folke/snacks.nvim",
