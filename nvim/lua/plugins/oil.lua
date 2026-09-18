@@ -29,5 +29,10 @@ return {
       delete_to_trash = true,
       skip_confirm_for_simple_edits = true,
     },
+    config = function(_, opts)
+      require("oil").setup(opts)
+      -- git status をファイル名の後ろに表示する
+      require("config.oil_git").setup()
+    end,
   },
 }
