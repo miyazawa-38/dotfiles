@@ -22,7 +22,7 @@ cursor-style-blink = false
 shell-integration-features = no-cursor
 
 # --- operation ---
-copy-on-select = true
+copy-on-select = clipboard
 clipboard-read = allow
 clipboard-write = allow
 
