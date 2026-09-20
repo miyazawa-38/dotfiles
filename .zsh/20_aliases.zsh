@@ -6,9 +6,9 @@ alias src='source ~/.zshrc'
 alias lg='lazygit'
 
 # cd
-alias cdf='cd "$(fd -H -t d | fzf)"'
+alias cff='cd "$(fd -H -t d | fzf)"'
 # alias cdfH='cd "$(fd -H -t d | fzf)"'
-alias cdfh='cd "$(fd -H . ~ -t d | fzf)"'
+alias cffh='cd "$(fd -H . ~ -t d | fzf)"'
 # alias cdfhH='cd "$(fd -H . ~ -t d | fzf)"'
 alias ..='cd ..'
 alias ...='cd ../..'
@@ -35,17 +35,17 @@ alias o='open .'
 
 # vim
 alias v='vim'
-alias vf='vim $(fd -H -t f | fzf)'
+alias vff='vim $(fd -H -t f | fzf)'
 
 # nvim
 alias n='nvim'
-alias nf='nvim $(fd -H -t f | fzf)'
+alias nff='nvim $(fd -H -t f | fzf)'
 # alias nfH='nvim $(fd -H -t f | fzf)'
 
 # fd 
-alias f='fd -H | fzf'
+alias ff='fd -H | fzf'
 # alias fH='fd -H | fzf'
-alias fh='fd -H . ~ | fzf'
+alias ffh='fd -H . ~ | fzf'
 # alias fhH='fd -H . ~ | fzf'
 alias fg='fd | grep'
 
