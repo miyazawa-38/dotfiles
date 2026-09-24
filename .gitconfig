@@ -2,10 +2,10 @@
 	name = miyazawa-38
 	email = 223658116+miyazawa-38@users.noreply.github.com
 [core]
-	pager = less -FXR -x8
-	whitespace = trailing-space,space-before-tab
-	editor = vim
-	quotepath = false
+  pager = delta
+  whitespace = trailing-space,space-before-tab
+  editor = vim
+  quotepath = false
 [color]
 	ui = auto
 [push]
@@ -23,3 +23,10 @@
   defaultBranch = main
 [pull]
   rebase = false
+[interactive]
+  diffFilter = delta --color-only
+[delta]
+  navigate = true
+  line-numbers = true
+  side-by-side = false
+  pager = less -FXR -x8
