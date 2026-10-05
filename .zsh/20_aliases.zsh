@@ -6,10 +6,12 @@ alias src='source ~/.zshrc'
 alias lg='lazygit'
 
 # cd
-alias cff='cd "$(fd -H -t d | fzf)"'
-# alias cdfH='cd "$(fd -H -t d | fzf)"'
-alias cffh='cd "$(fd -H . ~ -t d | fzf)"'
-# alias cdfhH='cd "$(fd -H . ~ -t d | fzf)"'
+# 隠しディレクトリも探す
+# alias cff='cd "$(fd -H -t d | fzf)"'
+# alias cffh='cd "$(fd -H . ~ -t d | fzf)"'
+# 隠しディレクトリは探さない
+alias cff='cd "$(fd -t d | fzf)"'
+alias cffh='cd "$(fd . ~ -t d | fzf)"'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
