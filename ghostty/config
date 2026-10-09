@@ -16,6 +16,9 @@ macos-window-shadow = true
 mouse-hide-while-typing = true
 window-inherit-working-directory = true
 
+# --- pane ---
+split-divider-color = #444444
+
 # --- cursor ---
 cursor-style = block
 cursor-style-blink = false
