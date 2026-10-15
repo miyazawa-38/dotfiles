@@ -16,4 +16,14 @@ return {
       },
     },
   },
+
+  -- dartのグレーの補足を消す
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      inlay_hints = {
+        exclude = { "dart" },
+      },
+    },
+  },
 }
