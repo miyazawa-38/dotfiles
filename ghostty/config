@@ -9,8 +9,9 @@ theme = Kanagawa Wave
 # theme = Kanagawa Dragon
 
 # --- window ---
-# background-opacity = 0.85
-# background-blur-radius = 20
+# background-opacity = 0.80
+# background-blur-radius = 0
+# keybind = cmd+shift+o=toggle_background_opacity
 macos-titlebar-style = hidden
 macos-window-shadow = true
 mouse-hide-while-typing = true
@@ -22,6 +23,9 @@ split-divider-color = #444444
 # --- cursor ---
 cursor-style = block
 cursor-style-blink = false
+cursor-color = #98bb6c
+cursor-text = #1F1F28
+cursor-opacity = 0.8
 shell-integration-features = no-cursor
 
 # --- operation ---
