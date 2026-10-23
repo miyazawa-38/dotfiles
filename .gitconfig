@@ -4,7 +4,7 @@
 [core]
   pager = delta
   whitespace = trailing-space,space-before-tab
-  editor = vim
+  editor = nvim
   quotepath = false
 [color]
 	ui = auto
