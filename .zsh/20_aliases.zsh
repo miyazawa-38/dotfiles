@@ -87,7 +87,11 @@ alias m='make'
 # claude
 alias clauded='claude --dangerously-skip-permissions'
 
+# task
+alias task='cd /Users/miya/dev/tasks'
 
+# todo.txt CLI
+alias t='todo.sh'
 
 
 
