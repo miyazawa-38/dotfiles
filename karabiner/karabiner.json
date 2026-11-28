@@ -98,7 +98,7 @@
             ]
           },
           {
-            "description": "Option + J/K → Control + fn + F4 / Control + fn + Shift + F4",
+            "description": "Option + J/K → F18 / Shift + F18",
             "manipulators": [
               {
                 "from": {
@@ -114,11 +114,7 @@
                 },
                 "to": [
                   {
-                    "key_code": "f4",
-                    "modifiers": [
-                      "left_control",
-                      "fn"
-                    ]
+                    "key_code": "f18"
                   }
                 ],
                 "type": "basic"
@@ -137,10 +133,8 @@
                 },
                 "to": [
                   {
-                    "key_code": "f4",
+                    "key_code": "f18",
                     "modifiers": [
-                      "left_control",
-                      "fn",
                       "left_shift"
                     ]
                   }
